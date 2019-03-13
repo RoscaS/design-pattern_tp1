@@ -1,5 +1,8 @@
-package tp1.tp1A.parts;
+package tp1.tp1B.parts;
 
+
+import tp1.tp1A.parts.Component;
+import tp1.tp1A.parts.CompositeComponent;
 
 public class Machine extends CompositeComponent {
 

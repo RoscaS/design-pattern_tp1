@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 public class Part implements Component, Serializable {
 
-    public Part(String name, double weight, Dimension3D dimensions) {
+    public Part(String name, Dimension3D dimensions, double weight) {
         this.dimensions = dimensions;
         this.name = name;
         this.weight = weight;

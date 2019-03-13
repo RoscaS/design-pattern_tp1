@@ -1,4 +1,4 @@
-package tp1.tp1A.database;
+package tp1.tp1B.database;
 
 import java.io.*;
 import java.util.Properties;

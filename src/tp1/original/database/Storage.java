@@ -1,8 +1,12 @@
-package tp1.tp1A.database;
+package tp1.original.database;
 
-import tps.tp1.original.parts.Machine;
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 
+import tp1.original.parts.Machine;
 
 public class Storage {
 	final private String fileName;

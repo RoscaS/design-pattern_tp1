@@ -1,4 +1,4 @@
-package tp1.tp1A.main;
+package tp1.tp1B.main;
 
 import tp1.tp1A.parts.*;
 import tp1.tp1A.database.*;

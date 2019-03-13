@@ -1,6 +1,7 @@
-package tp1.tp1A.database;
+package tp1.tp1B.database;
 
-import tps.tp1.original.parts.Machine;
+import tp1.tp1B.database.Config;
+import tp1.tp1B.parts.Machine;
 import java.io.*;
 
 

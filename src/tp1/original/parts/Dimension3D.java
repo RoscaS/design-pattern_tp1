@@ -1,7 +1,6 @@
-package tps.tp1.original.parts;
+package tp1.original.parts;
 
 import java.io.Serializable;
-
 
 public class Dimension3D implements Serializable {
 

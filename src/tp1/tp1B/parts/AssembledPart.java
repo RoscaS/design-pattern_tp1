@@ -1,9 +1,12 @@
-package tp1.tp1A.parts;
+package tp1.tp1B.parts;
 
+
+import tp1.tp1A.parts.CompositeComponent;
+import tp1.tp1A.parts.Dimension3D;
 
 public class AssembledPart extends CompositeComponent {
 
-    public AssembledPart(Dimension3D dimensions) {
+    public AssembledPart(tp1.tp1A.parts.Dimension3D dimensions) {
         this.dimensions = dimensions;
     }
 
@@ -12,7 +15,7 @@ public class AssembledPart extends CompositeComponent {
     }
 
     @Override
-    public Dimension3D getDimensions() {
+    public tp1.tp1A.parts.Dimension3D getDimensions() {
         return this.dimensions;
     }
 
