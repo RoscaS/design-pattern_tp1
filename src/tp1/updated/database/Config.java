@@ -1,10 +1,14 @@
-package tp1.tp1A.database;
+package tp1.updated.database;
 
 import java.io.*;
 import java.util.Properties;
 
 
 public class Config {
+
+    private static Config instance = null;
+
+
     private String propertyFileName = null;
     private String database = null;
     private String username = null;
@@ -34,6 +38,13 @@ public class Config {
         this.password = password;
     }
 
+    public static Config getInstance() {
+        if (instance == null) {
+            instance = new Config("config.properties");
+        }
+        return instance;
+    }
+
     private void load() {
         Properties prop = new Properties();
         InputStream input = null;
@@ -48,8 +59,7 @@ public class Config {
             if (input != null) {
                 try {
                     input.close();
-                } catch (IOException e) {
-                }
+                } catch (IOException e) { }
             }
         }
     }
@@ -76,11 +86,11 @@ public class Config {
         }
     }
 
-    public Config() {
-        this("config.properties");
-    }
+    // public Config() {
+    //     this("config.properties");
+    // }
 
-    public Config(String file) {
+    private Config(String file) {
         propertyFileName = file;
         load();
     }

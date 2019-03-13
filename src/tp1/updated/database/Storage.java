@@ -1,7 +1,6 @@
-package tp1.tp1B.database;
+package tp1.updated.database;
 
-import tp1.tp1B.database.Config;
-import tp1.tp1B.parts.Machine;
+import tp1.updated.parts.Machine;
 import java.io.*;
 
 
@@ -9,7 +8,10 @@ public class Storage {
 	final private String fileName;
 
 	public Storage() {
-		Config config = new Config();
+
+		// Config config = new Config();
+		Config config = Config.getInstance();
+
 		fileName = config.getDatabase();
 	}
 

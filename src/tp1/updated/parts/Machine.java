@@ -1,4 +1,4 @@
-package tp1.tp1A.parts;
+package tp1.updated.parts;
 
 
 public class Machine extends CompositeComponent {

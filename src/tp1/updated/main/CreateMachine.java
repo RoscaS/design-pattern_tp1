@@ -1,7 +1,7 @@
-package tp1.tp1B.main;
+package tp1.updated.main;
 
-import tp1.tp1A.parts.*;
-import tp1.tp1A.database.*;
+import tp1.updated.parts.*;
+import tp1.updated.database.*;
 
 
 public class CreateMachine {
@@ -20,7 +20,12 @@ public class CreateMachine {
 
     private static void createConfigFile() {
         System.out.println("Creating configuration file...");
-        Config c = new Config();
+
+
+        // Config c = new Config();
+        Config c = Config.getInstance();
+
+
         c.setDatabase(DATA_FILE);
         c.setUsername("golum");
         c.setPassword("myprecious");

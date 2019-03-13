@@ -1,7 +1,5 @@
-package tp1.tp1B.parts;
+package tp1.updated.parts;
 
-
-import tp1.tp1A.parts.Dimension3D;
 
 public interface Component {
 

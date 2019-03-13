@@ -1,7 +1,7 @@
-package tp1.tp1B.main;
+package tp1.updated.main;
 
-import tp1.tp1A.parts.Machine;
-import tp1.tp1A.database.Storage;
+import tp1.updated.parts.Machine;
+import tp1.updated.database.Storage;
 
 
 public class ShowMachine {
